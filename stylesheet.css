@@ -9,6 +9,14 @@ body {
     text-transform: uppercase;
 }
 
+.card-action {
+   
+}
+
+p {
+    height: 30px;
+}
+
 .card {
     height: 550px;
     
