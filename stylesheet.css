@@ -5,14 +5,14 @@ body {
 }
 
 
-.row {
-    font-size: 100px;
-    margin: 30px;
-    font-family:'Segoe UI';
-
-}
 
 .brand-logo {
     margin-left: 30px;
     
+}
+
+@media only screen and (max-width: 700px){
+    nav{
+        background-color: purple;
+    }
 }
