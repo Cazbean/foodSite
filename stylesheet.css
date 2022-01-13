@@ -4,13 +4,30 @@ body {
 
 }
 
+
 .card-title {
     color: black;
     text-transform: uppercase;
 }
 
+#more-info {
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 50%;
+    background-color: orange;
+    font-size: 20px;
+    height: 80px;
+    letter-spacing: 9px;
+    width: 800px;
+    margin-left: 230px;
+
+}
+
+
 .card-action {
-   
+    position: relative;
+    bottom: -60px;
+    vertical-align:bottom;
 }
 
 p {
