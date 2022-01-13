@@ -29,8 +29,28 @@
     </header>
 
     <main class="container">
-        <!-- locations content -->
-    </main>
+        <div class="row">
+            <div class="col s4">
+                <form action="">
+                    <div class="input-field">
+                        <label for="search">Enter your location</label>
+                        <input autocomplete="off" id="search" placeholder="city, postcode, etc." type="text">
+                        <button><i class="material-icons">search</i></button>
+                    </div>
+                </form>
+                <div class="collection" id="locationlist">
+                    <a href="#!" class="collection-item">Ramen place 1</a>
+                    <a href="#!" class="collection-item">Ramen place 2</a>
+                    <a href="#!" class="collection-item">Ramen place 3</a>
+                    <a href="#!" class="collection-item">Ramen place 4</a>
+                </div>
+            </div>
+
+            <div class="col s8">
+                <iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=london&t=&z=11&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+            </div>
+        </div>
+        </main>
 
     <footer class="page-footer">
         <div class="container center">
