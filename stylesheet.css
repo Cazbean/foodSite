@@ -7,7 +7,20 @@ body {
 
 .brand-logo {
     margin-left: 30px;
+    letter-spacing: 9px;
     
+}
+
+#nav-mobile {
+    letter-spacing: 5px;
+}
+
+header {
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    width: 400px; 
 }
 
 .page-footer {
