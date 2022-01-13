@@ -1,7 +1,17 @@
 body {
     background-image: url("https://images2.minutemediacdn.com/image/upload/c_crop,h_1192,w_2121,x_0,y_111/f_auto,q_auto,w_1100/v1624295423/shape/mentalfloss/642293-gettyimages-1135104933.jpg");
-    background-size: 2000px;
+    background-size: 2000px, 100vw;
 
+}
+
+.card-title {
+    color: black;
+    text-transform: uppercase;
+}
+
+.card {
+    height: 550px;
+    
 }
 
 
@@ -24,8 +34,7 @@ header {
 }
 
 .page-footer {
-    position: absolute; bottom: 0; left: 0; right: 0;
-    text-align: 
+    position: fixed; bottom: 0; left: 0; right: 0;
 
 }
 
@@ -35,4 +44,12 @@ header {
     nav{
         background-color: purple;
     }
+}
+
+@media only screen and (max-width: 500px) {
+    .card {
+        display: flex;
+        flex direction: column;
+    }
+    
 }
